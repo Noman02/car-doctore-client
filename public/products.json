@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "636387f3bc52fc583083fc6f",
+    "picture": "https://i.ibb.co/YWdYdft/1.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  },
+  {
+    "_id": "636387f368061500f6c0da65",
+    "picture": "https://i.ibb.co/K0Rgm36/2.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  },
+  {
+    "_id": "636387f3a8eebdfbc7367b12",
+    "picture": "https://i.ibb.co/0mM5DV4/3.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  },
+  {
+    "_id": "636387f3088950760478a9e2",
+    "picture": "https://i.ibb.co/6XkMzch/4.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  },
+  {
+    "_id": "636387f32957a5032641dfa0",
+    "picture": "https://i.ibb.co/GWZf7x7/5.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  },
+  {
+    "_id": "636387f3189ddae632abf4de",
+    "picture": "https://i.ibb.co/wL4yFDt/6.png",
+    "title": "Machine parts",
+    "price": "20.00"
+  }
+]
