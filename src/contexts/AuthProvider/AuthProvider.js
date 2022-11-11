@@ -4,6 +4,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
+  signOut,
 } from "firebase/auth";
 import app from "./../../firebase/firebase.config";
 
@@ -34,11 +35,17 @@ const AuthProvider = ({ children }) => {
     };
   }, []);
 
+  const logOut = () => {
+    localStorage.removeItem("genius token");
+    return signOut(auth);
+  };
+
   const authInfo = {
     user,
     loading,
     createUser,
     logIn,
+    logOut,
   };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>

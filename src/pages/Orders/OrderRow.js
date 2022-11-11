@@ -5,7 +5,7 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
   const [orderService, setOrderService] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/services/${service}`)
+    fetch(`https://genius-car-server-neon-theta.vercel.app/services/${service}`)
       .then((res) => res.json())
       .then((data) => setOrderService(data));
   }, [service]);
@@ -37,7 +37,7 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
             </div>
             <div>
               <div className="font-bold">{customer}</div>
-              <div className="text-sm opacity-50">={phone}</div>
+              <div className="text-sm opacity-50">{phone}</div>
             </div>
           </div>
         </td>
